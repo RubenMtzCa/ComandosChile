@@ -1,6 +1,6 @@
 Buen día:
 
-A continuación indicamos los pasos que se deben de efectuar para realizar la configuración, (El paso 1 y 2 es dependiendo de las partiones), se ejecuta uno u otro; pero no ambos.
+A continuación indicamos los pasos que se deben de efectuar para realizar la configuración.
 
 1.- En caso de tener configurado el ordenador en una sola Unidad. 
 	- Unidad c:\
@@ -14,19 +14,8 @@ A continuación indicamos los pasos que se deben de efectuar para realizar la con
 	     C:\Program Files\M2_REPO
 	 e)Otorgar todos los permisos correspondientes a todos los directorios creados anteriormente.
 	 
-2.- En caso de tener la opción de dos unidades.
-    - Unidad c:\ y d:\
-	 a)Descargar de la siguiente URL las carpetas contenidas:
-	     https://drive.google.com/drive/folders/0B0xGVUrYzlTjTnFSQmtpcGRySGs?usp=sharing
-	 b)Una vez realizada la descarga copiar la carpeta IDE-SPRING a la siguiente ruta
-	     C:\Program Files\
-	 c)Realizar la copia de la carpeta BBVA_ARQ_DESA en el siguiente IDE-SPRING
-         D:\
-	 d)Crear la siguiente carpeta:
-	     D:\Program Files\M2_REPO
-	 e)Otorgar todos los permisos correspondientes a todos los directorios creados anteriormente.
 
-3.- Ejecutar los siguientes comandos desde el promt del equipo (cmd)
+2.- Ejecutar los siguientes comandos desde el promt del equipo (cmd)
      a) cd C:\Program Files\IDE-ASO\IDE-spring
 	 b) .\Start.bat  (Nota al ejecutar este comando se levantan dos unidades w: y s:)
 	 c) .\IDE.bat
