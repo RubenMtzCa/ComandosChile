@@ -1,0 +1,40 @@
+Buen día:
+
+A continuación indicamos los pasos que se deben de efectuar para realizar la configuración, (El paso 1 y 2 es dependiendo de las partiones), se ejecuta uno u otro; pero no ambos.
+
+1.- En caso de tener configurado el ordenador en una sola Unidad. 
+	- Unidad c:\
+	 a)Descargar de la siguiente URL las carpetas contenidas:
+	     https://drive.google.com/open?id=0B0xGVUrYzlTjeUpXd3R1eW1aWms
+	 b)Una vez realizada la descarga copiar la carpeta IDE-SPRING a la siguiente ruta
+	     C:\Program Files\
+	 c)Realizar la copia de la carpeta BBVA_ARQ_DESA en los siguientes directorios
+         C:\
+	 d)Crear la siguiente carpeta:
+	     C:\Program Files\M2_REPO
+	 e)Otorgar todos los permisos correspondientes a todos los directorios creados anteriormente.
+	 
+2.- En caso de tener la opción de dos unidades.
+    - Unidad c:\ y d:\
+	 a)Descargar de la siguiente URL las carpetas contenidas:
+	     https://drive.google.com/drive/folders/0B0xGVUrYzlTjTnFSQmtpcGRySGs?usp=sharing
+	 b)Una vez realizada la descarga copiar la carpeta IDE-SPRING a la siguiente ruta
+	     C:\Program Files\
+	 c)Realizar la copia de la carpeta BBVA_ARQ_DESA en el siguiente IDE-SPRING
+         D:\
+	 d)Crear la siguiente carpeta:
+	     D:\Program Files\M2_REPO
+	 e)Otorgar todos los permisos correspondientes a todos los directorios creados anteriormente.
+
+3.- Ejecutar los siguientes comandos desde el promt del equipo (cmd)
+     a) cd C:\Program Files\IDE-ASO\IDE-spring
+	 b) .\Start.bat  (Nota al ejecutar este comando se levantan dos unidades w: y s:)
+	 c) .\IDE.bat
+     d) cd s:\BBVA_ARQ_DESA\Spring\Desarrollo\Workspace\lzic-branch-desarrollo
+	 e) .\mvn.bat clean
+	 f) .\mvn.bat install -Dmaven.test.skip=true
+	 g) .\mvn.bat tomcat:run
+
+4.- Validar las clases que se mencionan han sido compiladas con la versión 1.7 de Java.
+    a) ejemplo: com.grupobbva.sl.fraud.FraudService
+	
