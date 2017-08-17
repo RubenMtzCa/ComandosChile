@@ -16,9 +16,9 @@ A continuación indicamos los pasos que se deben de efectuar para realizar la con
 	 
 
 2.- Ejecutar los siguientes comandos desde el promt del equipo (cmd)
-     a) cd C:\Program Files\IDE-ASO\IDE-spring
+     a) cd C:\Program Files\IDE-spring
 	 b) .\Start.bat  (Nota al ejecutar este comando se levantan dos unidades w: y s:)
-	 c) .\IDE.bat
+	 c) Ir a la ruta C:\Program Files\IDE-Spring y dar doble click en el archivo IDE.bat
      d) cd s:\BBVA_ARQ_DESA\Spring\Desarrollo\Workspace\lzic-branch-desarrollo
 	 e) .\mvn.bat clean
 	 f) .\mvn.bat install -Dmaven.test.skip=true
